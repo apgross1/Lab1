@@ -9,7 +9,7 @@ public class Main {
 		//Initialization of input method
 		Scanner user_input = new Scanner(System.in);
 		
-		//Each block of code contain a single prompt and conversion into int value
+		//Each block of code contain a single prompt
 		//I'm wondering whether or not this can be consolidated via while/for loop...
 		System.out.println("How many years do you intend to work?");
 		int work_years = user_input.nextInt();
