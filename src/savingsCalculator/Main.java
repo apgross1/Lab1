@@ -14,7 +14,7 @@ public class Main {
 		System.out.println("How many years do you intend to work?");
 		int work_years = user_input.nextInt();
 		
-		System.out.println("What is your average expected return on investment? (0-20%");
+		System.out.println("What is your average expected return on investment? (0-20%)");
 		double avg_return_invest = (user_input.nextDouble())/100;
 		
 		System.out.println("What is your average expected return on paypack? (0-3%)");
