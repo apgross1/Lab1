@@ -21,7 +21,7 @@ public class Main {
 		double avg_return_payback = 1 + (user_input.nextDouble())/100;
 		
 		System.out.println("How long do you intend to draw from Social Security?");
-		int draw_funds = user_input.nextInt();
+		int draw_years = user_input.nextInt();
 		
 		System.out.println("What is your required income?");
 		double req_incm = (user_input.nextDouble());
@@ -32,7 +32,7 @@ public class Main {
 		user_input.close();
 
 		double total_savings = (req_incm - SSI_incm) * 20;
-		double savings_retirement = total_savings/Math.pow(avg_return_payback, draw_funds);
+		double savings_retirement = total_savings/Math.pow(avg_return_payback, draw_years);
 		double savings_invested = savings_retirement/Math.pow(avg_return_invest, work_years);
 		double monthly_savings = savings_invested/12;
 		System.out.printf("You must save $%.2f per month to achieve your retirement goal.", monthly_savings);
