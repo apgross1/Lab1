@@ -1,4 +1,5 @@
 package savingsCalculator;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +14,7 @@ public class Main {
 		//I'm wondering whether or not this can be consolidated via while/for loop...
 		System.out.println("How many years do you intend to work?");
 		int work_years = user_input.nextInt();
-		
+
 		System.out.println("What is your average expected return on investment? (0-20%)");
 		double avg_return_invest = (user_input.nextDouble())/100;
 		
