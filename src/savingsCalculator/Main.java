@@ -1,3 +1,6 @@
+//Andrew Gross and Daniel Kim
+//CISC181010
+//Lab 1
 package savingsCalculator;
 import java.util.Scanner;
 
